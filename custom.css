@@ -1,0 +1,51 @@
+.thm-btn::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  .thm-btn {
+    padding: 19px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .thm-btn:first-of-type {
+    margin-right: 17px;
+  }
+  
+  .thm-btn:only-of-type {
+    margin-right: 0;
+  }
+
+  .thm-btn:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }
+  
+  .thm-btn.hvr-1::before {background: #118442;}
+  .thm-btn.hvr-2::before {background: #6abe52;}
+  .thm-btn.hvr-3::before {background: #e2e659;}
