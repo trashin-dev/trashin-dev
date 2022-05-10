@@ -1,0 +1,38 @@
+.c1 {color: #6abe52 !important;}
+.c2 {color: #118442 !important;}
+.c3 {color: #e2e659 !important;}
+.c4 {color: #111c16 !important;}
+.bg1 {background: #6abe52 !important;}
+.bg2 {background: #118442 !important;}
+.bg3 {background: #e2e659 !important;}
+
+/* theme fonts */
+.f1 {font-family: 'Titillium Web', sans-serif;}
+.f2 {font-family: 'Covered By Your Grace', cursive;}
+.fw-2{font-weight: 200;}
+.fw-3{font-weight: 300;}
+.fw-4{font-weight: 400;}
+.fw-6{font-weight: 600;}
+.fw-7{font-weight: 700;}
+.fw-9{font-weight: 900;}
+
+.thm-btn {
+    padding: 19px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .thm-btn:first-of-type {
+    margin-right: 17px;
+  }
+  
+  .thm-btn:only-of-type {
+    margin-right: 0;
+  }
